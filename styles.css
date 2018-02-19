@@ -1,0 +1,65 @@
+html, body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: auto;
+  min-height: 100px;
+  padding: 0px;
+  width: 420px;
+  background-color: #EBF0FA;
+}
+h1{
+  font-family: "Menlo", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  color: #004CCC;
+}
+a:link, a:visited{
+  color:black;
+  outline: 0;
+  text-decoration: none;
+}
+img{
+  width: 40px;
+}
+.modal-header{
+  align-items: center;
+  border-bottom: 1px solid #dadada;
+}
+.modal-content{
+  padding: 0px 20px;
+  border-bottom: 1px solid #dadada;
+}
+.model-icons{
+  border-top:0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
+.logo{
+  padding: 12px;
+}
+.logo-icon{
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+.version{
+  color: #444;
+  font-size: 12px;
+}
+.flex-container{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+.flex{
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  width: 120px;
+}
+.flex:hover{
+  opacity: 0.4;
+}
+.flex .fa{
+  font-size: 40px;
+  color: #4C8FFF;
+}
